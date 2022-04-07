@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <Carousel />
+    <Form />
   </div>
 </template>
 
 <script>
-import Carousel from "./components/Carousel.vue";
+import Form from "./components/Form.vue";
 
 export default {
   components: {
-    Carousel,
+    Form,
   },
 };
 </script>
@@ -25,7 +25,5 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  min-height: 100vh;
 }
 </style>
